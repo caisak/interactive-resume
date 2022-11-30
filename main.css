@@ -19,7 +19,9 @@ a:active {
     color: black;
 }
 
-
+i {
+    font-size: 2rem;
+}
 
 
 /* Reusable styles */
