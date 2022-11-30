@@ -1,14 +1,29 @@
 /* Specific styles */
-body {
-    color: white;
+a {
+    text-decoration: none;
 }
+
+a:link {
+    color: #95B085;
+}
+
+a:visited {
+    color: #95B085;
+}
+
+a:hover {
+    color: #9DB98B;
+}
+
+a:active {
+    color: black;
+}
+
+
+
 
 
 /* Reusable styles */
-.dark-bg {
-    background: black;
-}
-
 .full-size {
     height: 100%;
     width: 100%;
@@ -29,3 +44,4 @@ body {
 .space-between {
     justify-content: space-between;
 }
+
