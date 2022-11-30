@@ -20,10 +20,6 @@ a:active {
 }
 
 
-.footer {
-    background: #95B085;
-}
-
 .profile-picture {
     width: 15rem;
     height: 15rem;
@@ -35,28 +31,11 @@ a:active {
     display: none;
 }
 
+body {
+    background: cadetblue;
+}
 
 /* Reusable styles */
-
-.flex {
-    display: flex;
-}
-
-.column {
-    flex-direction: column;
-}
-
-.row {
-    flex-direction: row;
-}
-
-.center {
-    align-items: center;
-}
-
-.space-between {
-    justify-content: space-between;
-}
 
 .i-color {
     font-size: 2rem;
@@ -74,6 +53,10 @@ a:active {
 .skill-size {
     height: 4rem;
     width: 4rem;
+}
+
+.bg-custom {
+    background: #4f4f4f;
 }
 
 
