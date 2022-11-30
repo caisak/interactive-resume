@@ -31,6 +31,10 @@ a:active {
     border-radius: 50%;
 }
 
+#more {
+    display: none;
+}
+
 
 /* Reusable styles */
 
