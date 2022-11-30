@@ -19,13 +19,20 @@ a:active {
     color: black;
 }
 
-i {
-    font-size: 2rem;
+
+.footer {
+    background: #95B085;
+}
+
+.profile-picture {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
 /* Reusable styles */
-/*
 
 .flex {
     display: flex;
@@ -33,6 +40,10 @@ i {
 
 .column {
     flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
 }
 
 .center {
@@ -43,5 +54,13 @@ i {
     justify-content: space-between;
 }
 
-*/
+.i-color {
+    font-size: 2rem;
+    color: #95B085;
+}
+
+.i-footer-color {
+    color: white;
+}
+
 
