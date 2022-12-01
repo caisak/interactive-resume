@@ -9,11 +9,11 @@ a {
 }
 
 a:link {
-    color: var(--accent-color);
+    color: black;
 }
 
 a:visited {
-    color: var(--accent-color);
+    color: black;
 }
 
 a:hover {
