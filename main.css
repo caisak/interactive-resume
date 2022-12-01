@@ -1,14 +1,19 @@
 /* Specific styles */
+:root {
+    --primary-color: #95B085;
+    --accent-color: #E7E4DB;
+}
+
 a {
     text-decoration: none;
 }
 
 a:link {
-    color: #95B085;
+    color: var(--accent-color);
 }
 
 a:visited {
-    color: #95B085;
+    color: var(--accent-color);
 }
 
 a:hover {
@@ -32,18 +37,18 @@ a:active {
 }
 
 body {
-    background: cadetblue;
+    background: var(--primary-color);
 }
 
 /* Reusable styles */
 
 .i-color {
     font-size: 2rem;
-    color: #95B085;
+    color: var(--accent-color);
 }
 
 .i-footer-color {
-    color: white;
+    color: var(--accent-color);
 }
 
 .border-radius {
