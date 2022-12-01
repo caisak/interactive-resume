@@ -40,10 +40,18 @@ body {
     background: var(--primary-color);
 }
 
+.quote-square {
+    width: 15rem;
+    height: 15rem;
+    background: var(--accent-color);
+    border-radius: 20%;
+    
+}
+
 /* Reusable styles */
 
 .i-color {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--accent-color);
 }
 
