@@ -36,21 +36,27 @@ a:active {
     display: none;
 }
 
+
 body {
     background: var(--primary-color);
 }
 
 .quote-square {
-    width: 15rem;
-    height: 15rem;
+    width: 17rem;
+    height: 17rem;
     background: var(--accent-color);
     border-radius: 20%;
-    
+}
+
+
+
+#shade:hover {
+    box-shadow: 5px 10px #4f4f4f;
 }
 
 /* Reusable styles */
 
-.i-color {
+.accent-color {
     font-size: 2.5rem;
     color: var(--accent-color);
 }
@@ -68,8 +74,6 @@ body {
     width: 4rem;
 }
 
-.bg-custom {
-    background: #4f4f4f;
+.bg-accent {
+    background: var(--accent-color);
 }
-
-

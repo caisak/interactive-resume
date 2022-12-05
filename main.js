@@ -4,6 +4,7 @@ function main() {
     
 }
 
+//Button that expands text in projects.html
 function readMoreReadLess() {
     let dots = document.getElementById("dots");
     let moreText = document.getElementById("more");
