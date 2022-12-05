@@ -44,11 +44,9 @@ body {
 .quote-square {
     width: 17rem;
     height: 17rem;
-    background: var(--accent-color);
+    background: #FFFF;
     border-radius: 20%;
 }
-
-
 
 #shade:hover {
     box-shadow: 5px 10px #4f4f4f;
@@ -58,10 +56,6 @@ body {
 
 .accent-color {
     font-size: 2.5rem;
-    color: var(--accent-color);
-}
-
-.i-footer-color {
     color: var(--accent-color);
 }
 
