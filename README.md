@@ -1,5 +1,5 @@
 # Interactive Resume
-## [Click here to view in browser](https://caisak.github.io/interactive-resume-/)
+## [Click here to view in browser](https://caisak.github.io/interactive-resume/)
 
 ## The Project
 This is an interactive resume! You can click some links that will redirect you to my LinkedIn, some projects, the accompanying GitHub pages or check out the accordion in the "About Me" page to get to know me better.
