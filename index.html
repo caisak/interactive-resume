@@ -53,19 +53,44 @@
     </nav>
 
     <!--Showcase-->
-    <div class="col-sm-12">
-        <h1>Looking for weird people who want to do great work</h1>
+    <div class="showcase d-flex align-items-center justify-content-center">
+        <h1 class="text-center">Looking for weird people who want to do great work.</h1>
 
     </div>
 
     <!--Work Experience-->
-    
+  <div class="d-flex row justify-content-evenly">
+    <h2 class="text-center">Work Experience</h2>
+    <div class="card border-light col-sm-5 mt-4">
+        <h4 class="card-title mt-2 bg-accent">Barista</h4>
+        <small>Espresso House | 2021-CURRENT</small>
+        <p class="card-body">
+            <ul>
+                <li>Prepare and serve premium beverages, food and pastries</li>
+                <li>Provide guest with outstanding service</li>
+                <li>Contribute to a positive team and work environment</li>
+            </ul>
+        </p>
+    </div>
+    <div class="card border-light col-sm-5 mt-4">
+        <h4 class="card-title mt-2 bg-accent">Consultant</h4>
+        <small>Store Support | 2016-2018</small>
+        <p class="card-body">
+            <ul>
+                <li>Navigated and adapted to different workplaces and tasks every day</li>
+                <li>Trained for three positions: deli clerk, cashier and stock clerk</li>
+                <li>Customer service</li>
+            </ul>
+        </p>
+    </div>
+  </div>
+  <div class="green-space"></div>
 
     <!--Education-->
     <h2 class="d-flex justify-content-center mt-4">Education</h2>
     <div class="d-flex row justify-content-around">
         <div id="shade" class="quote-square p-4 col-sm-3 mt-4">
-          <h4>Medieinstitutet</h4><small>2022-2024</small>
+          <h4 class="bg-accent">Medieinstitutet</h4><small>2022-2024</small>
           <p class="mt-2">
             Semester 1: HTML & CSS, UX/UI Design, JavaScript Basics.
             <br><br>
@@ -73,24 +98,26 @@
           </p>
         </div>
         <div id="shade" class="quote-square p-4 col-sm-3 mt-4">
-          <h4>Ljungskile Folkhögskola</h4><small>2020-2021</small>
+          <h4 class="bg-accent">Ljungskile Folkhögskola</h4><small>2020-2021</small>
           <p class="mt-2">
             Graduated with the highest grade: 4 (Excellent study aptitude) and was student representative on the school board.
           </p>
         </div>
         <div id="shade" class="quote-square p-4 col-sm-3 mt-4">
-          <h4>Strömstad Gymnasium</h4><small>2010-2013</small>
+          <h4 class="bg-accent">Strömstad Gymnasium</h4><small>2010-2013</small>
           <p class="mt-2">
             Art and idea history
           </p>
         </div>
         </div>
     
+        <div class="green-space"></div>
+
     <!--Selected Projects-->
     <div class="d-flex row justify-content-evenly mt-4">
         <h2 class="text-center mt-4">Selected Projects</h2>
         <!--Project Gutenberg Modernized-->
-        <div id="shade" class="card border-light col-sm-3 mt-3 p-2">
+        <div id="shade" class="card border-light col-sm-3 mt-4 p-2">
             <img class="PGM-img" src="./PGM-project.png" alt="image of project gutenberg modernized">
             <div class="card-body text-center">
                 <h4 class="card-title"><a href="https://caisak.github.io/Project-Gutenberg-modernized/">Project
@@ -106,7 +133,7 @@
             </div>
         </div>
         <!--Rock Paper Scissors-->
-        <div id="shade" class="card border-light col-sm-3 mt-3 p-2">
+        <div id="shade" class="card border-light col-sm-3 mt-4 p-2">
             <img class="PGM-img" src="./rock-p-s.png" alt="image of rock paper scissors website">
             <div class="card-body text-center">
                 <h4><a href="https://caisak.github.io/Rock-Paper-Scissors/">Rock paper scissors
@@ -122,7 +149,7 @@
             </div>
         </div>
         <!--RPS again because-->
-    <div id="shade" class="card border-light col-sm-3 mt-3 p-2">
+    <div id="shade" class="card border-light col-sm-3 mt-4 p-2">
         <img class="PGM-img" src="./rock-p-s.png" alt="image of rock paper scissors website">
         <div class="card-body text-center">
             <h4><a href="https://caisak.github.io/Rock-Paper-Scissors/">Pretend this is something else</h4></a>
@@ -136,21 +163,34 @@
             </div>
         </div>
     </div>
+    <div class="green-space"></div>
 
     <!--Skills-->
-    <div class="pt-2 pb-4 mt-4">
         <h2 class="text-center">Skills</h2>
-        <div class="d-flex justify-content-evenly">
-            <img class="skill-size" src="./HTML5_Logo_wordmark.svg" alt="HTML logo">
-            <img class="skill-size" src="./CSS3_logo_and_wordmark.svg" alt="CSS logo">
+        <div class="row align-items-start">
+            <div class="col mt-1">
+                <img class="skill-size" src="./HTML5_Logo_wordmark.svg" alt="HTML logo">
+            </div>
+            <div class="col mt-2">
+                <img class="skill-size" src="./CSS3_logo_and_wordmark.svg" alt="CSS logo">
+            </div>
+            <div class="col mt-2">
             <img class="skill-size border-radius" src="./JavaScript-logo.png" alt="JavaScript logo">
+            </div>
+            <div class="col mt-2">
             <img class="skill-size" src="./Figma-logo.svg" alt="Figma logo">
+            </div>
+            <div class="col mt-2">
             <img class="skill-size" src="./Git-logo.svg" alt="Git logo">
-            <img src="./Bootstrap_logo.svg" alt="Bootstrap logo" class="skill-size">
+            </div>
+            <div class="col mt-2">
+            <img class="skill-size" src="./Bootstrap_logo.svg" alt="Bootstrap logo">
+            </div>
+            <div class="col mt-2">
             <img class="skill-size" src="./Adobe_Premiere_Pro_Logo.svg" alt="Adobe Premiere Pro logo">
+            </div>
         </div>
-    </div>
-    
+    <div class="green-space"></div>
 
     <!--Footer-->
     <div class="d-flex justify-content-center mt-5">
